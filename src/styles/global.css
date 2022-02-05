@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow/BARLOW-REGULAR.TTF');
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow/BARLOW-LIGHT.TTF');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow/BARLOW-BOLD.TTF');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow/BARLOW-ITALIC.TTF');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow/BARLOW-BLACKITALIC.TTF');
+  font-weight: bold;
+  font-style: italic;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --cyan: #75DED7;
+}
