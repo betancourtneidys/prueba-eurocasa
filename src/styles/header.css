@@ -1,0 +1,64 @@
+@import 'global';
+
+.header {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  height: 10rem;
+  justify-content: space-between;
+  padding: 3rem 8rem;
+}
+
+.logo {
+  width: 16rem;
+}
+
+.navbar {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: space-between;
+}
+
+.navbar li {
+	list-style: none;
+  padding-left: 8rem;
+}
+
+.navbar a {
+  color: var(--white);
+  font-family: 'Barlow';
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 8rem;
+    padding: 1rem 4rem;
+  }
+  .navbar {
+    font-size: 1.4rem;
+  }
+  .navbar li {
+    padding-left: 4rem;
+  }
+  .logo {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 6rem;
+    padding: 1rem 2rem;
+  }
+  .navbar {
+    font-size: 1.2rem;
+  }
+  .navbar li {
+    padding-left: 2rem;
+  }
+  .logo {
+    width: 8rem;
+  }
+}
