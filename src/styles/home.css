@@ -12,17 +12,51 @@
 
 .home h1 {
   color: var(--white);
-  font-family: 'Barlow';
   font-size: 8rem;
   font-weight: 400;
 }
 
 .home h2 {
   color: var(--white);
-  font-family: 'Barlow';
   font-size: 3.9rem;
   font-weight: 200;
   line-height: 1.8rem;
+}
+
+.about-us{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 6rem;
+}
+
+.about-us figure {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.about-us img {
+  width: 28rem;
+  height: 28rem;
+}
+
+.about-us .description {
+  width: 50%;
+}
+
+.about-us .description h3 {
+  color: var(--black);
+  font-family: 'Garamond';
+  font-size: 6rem;
+  font-weight: 400;
+  margin-bottom: 2.6rem;
+}
+
+.about-us .description p {
+  color: var(--black);
+  font-size: 2.2rem;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -35,6 +69,20 @@
   .home h2 {
     font-size: 2.8rem;
   }
+  .about-us{
+    padding: 4rem;
+  }
+  .about-us img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .about-us .description h3 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+  .about-us .description p {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -46,5 +94,17 @@
   }
   .home h2 {
     font-size: 2rem;
+  }
+  .about-us{
+    flex-direction: column;
+  }
+  .about-us figure {
+    width: 100%;
+  }
+  .about-us .description {
+    width: 100%;
+  }
+  .about-us .description h3 {
+    margin: 2rem 0 0;
   }
 }

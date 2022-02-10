@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Barlow';
 }
 
 :root {
@@ -13,6 +14,8 @@ html {
   --black: #000000;
   --cyan: #75DED7;
 }
+
+/* FONTS BARLOW */
 
 @font-face {
   font-family: 'Barlow';
@@ -106,4 +109,23 @@ html {
   src: url('./fonts/Barlow/BARLOW-BLACKITALIC.TTF');
   font-weight: 900;
   font-style: italic;
+}
+
+/* FONTS GARAMOND */
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('./fonts/Garamond/GARA.TTF');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('./fonts/Garamond/GARAIT.TTF');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('./fonts/Garamond/GARABD.TTF');
+  font-weight: 700;
 }
