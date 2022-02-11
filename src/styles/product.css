@@ -24,6 +24,7 @@ span {
 .product h2 {
   color: var(--white);
   font-size: 6rem;
+  font-weight: 400;
 }
 
 .product-container {
