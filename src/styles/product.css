@@ -1,0 +1,58 @@
+@import 'global';
+
+figcaption {
+  font-family: 'Garamond';
+  font-size: 3.6rem;
+  padding-top: 1rem;
+}
+
+span {
+  color: rgb(167, 159, 159);
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.product {
+  align-items: center;
+  background-image: url('../assets/BANNER_Sillon.png');
+  background-size: 100% 100%;
+  display: flex;
+  height: 26rem;
+  justify-content: center;
+}
+
+.product h2 {
+  color: var(--white);
+  font-size: 6rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 6rem 2rem 0;
+}
+
+.product-item {
+  padding: 4rem;
+  text-align: center;
+}
+
+.product-item img {
+  width: 30rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background: var(--cyan);
+  border: none;
+  color: var(--white);
+  font-family: 'Barlow';
+  font-size: 2.2rem;
+  font-weight: 200;
+  margin-bottom: 4rem;
+  padding: 1rem 4.6rem;
+}
