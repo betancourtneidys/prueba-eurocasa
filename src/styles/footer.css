@@ -1,0 +1,63 @@
+@import 'global';
+
+.contact-us {
+  height: 42rem;
+  background-color: var(--black);
+  display: flex;
+  color: var(--white);
+}
+
+.contact-us h4 {
+  font-size: 4rem;
+  font-family: 'Garamond';
+  padding-bottom: 2rem;
+}
+
+.form-container {
+  width: 50%;
+  height: 42rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding: 4rem;
+}
+
+.contac-container {
+  width: 25%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.horarios-container {
+  width: 25%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.horarios-container h4 {
+  font-size: 4rem;
+  font-family: 'Garamond';
+  padding-bottom: 2rem;
+}
+
+.horarios-container p {
+  font-size: 2rem;
+}
+
+.rights {
+  display: flex;
+  background-color: var(--cyan);
+  justify-content: center;
+}
+
+.rights p {
+  font-size: 2.6rem;
+  padding: 4rem;
+  color: var(--white);
+}
