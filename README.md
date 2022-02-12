@@ -1,4 +1,4 @@
-# Prueba técnico.
+# Prueba técnica.
 
 ## Requerimientos
 
