@@ -1,4 +1,4 @@
-# Challenge técnico.
+# Prueba técnico.
 
 ## Requerimientos
 
