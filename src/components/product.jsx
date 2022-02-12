@@ -13,17 +13,17 @@ const Product = () => {
       </div>
 
       <div className='product-container'>
-        <figure class="product-item">
+        <figure className="product-item">
           <img src={comoda} alt="" />
           <figcaption>Cómoda</figcaption>
           <span>Dormitorio</span>
         </figure>
-        <figure class="product-item">
+        <figure className="product-item">
           <img src={sillon} alt="" />
           <figcaption>Silla</figcaption>
           <span>Cocina</span>
         </figure>
-        <figure class="product-item">
+        <figure className="product-item">
           <img src={mesa} alt="" />
           <figcaption>Mesa ratona</figcaption>
           <span>Living/Comedor</span>

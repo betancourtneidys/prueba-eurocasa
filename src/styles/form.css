@@ -1,0 +1,59 @@
+@import 'global';
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 5rem;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid var(--cyan);
+  background: none;
+  color: var(--white);
+}
+
+.form-input:focus-visible, .form-input:focus {
+  outline: 0;
+}
+
+.form-container label {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8rem 2rem 0;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+  padding: 3rem 8rem;
+  justify-content: flex-end;
+}
+
+.btn button {
+  background: var(--cyan);
+  border: none;
+  color: var(--white);
+  font-family: 'Barlow';
+  font-size: 2.6rem;
+  font-weight: 200;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+select option {
+  color: var(--black);
+}

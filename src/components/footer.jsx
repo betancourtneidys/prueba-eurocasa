@@ -3,14 +3,13 @@ import '../styles/footer.css';
 import phone from '../assets/phone.png';
 import whatsapp from '../assets/whatsapp.png';
 import location from '../assets/location.png';
+import Form from './form';
 
 const Footer = () => {
   return (
     <section>
       <div className='contact-us'>
-        <div className='form-container'>
-          <h4>Formulario</h4>
-        </div>
+        <Form />
         <div className='contact-container'>
           <h4>Contacto</h4>
           <div className='contact-display'>

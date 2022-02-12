@@ -7,13 +7,13 @@ const Header = () => {
     <nav className='header'>
       <img className='logo' src={logo}  alt="Logo Eurocasa" />
       <ul className="navbar">
-        <li>
+        <li id='inicio'>
           <a href="/">INICIO</a>
         </li>
-        <li>
+        <li id='productos'>
           <a href="/">PRODUCTOS</a>
         </li>
-        <li>
+        <li id='contacto'>
           <a href="/">CONTACTO</a>
         </li>
       </ul>
